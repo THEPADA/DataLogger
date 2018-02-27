@@ -16,6 +16,6 @@ class WaterLog(models.Model):
     self.watertemp = watertemp
     self.airtemp = airtemp
     self.save()
-  def __str__():
+  def __str__(self):
     return str(self.created_date)
 # Create your models here.
